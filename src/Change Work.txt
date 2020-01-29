@@ -1,0 +1,4 @@
+1) Change font awesome Icon
+2) Include CDN
+3) Google Map --- Contact Page
+4) Modal video plugin

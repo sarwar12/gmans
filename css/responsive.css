@@ -1,0 +1,79 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {}
+
+
+/* Tablet & Mobile devices (tablets, 768px and up) */
+@media (max-width: 992px) {  
+	.mainmenu {display: none;}
+	.logo {margin-top: 13px;}
+	.slide-text h2 {font-size: 30px;}
+	.slide-text {padding: 100px 0;}
+	.section-padding {padding: 60px 0;}
+	.title-gallery {margin-bottom: 60px;}
+	.title-gallery img {width: 100%;max-height: 235px;}
+	.title-gallery img:nth-child(2) {position: relative;right: auto;top: auto;}
+	.title-gallery img:nth-child(3) {position: relative;bottom: auto;left: auto;}
+	.services-area::before {height: 400px;width: 100%;}
+	.services-area {padding-top: 400px;}
+	.single-service-item:hover::after{display: none;} 
+	.cta-btn.mobile-left {text-align: left;}
+	.footer-area .col-lg-2, .footer-area .col-lg-3 {margin-top: 30px;}
+	.comment-form input[type="submit"] {margin-bottom: 10px;}
+	.thumb-post li {padding-bottom: 40px;}
+	.boxed-btn {margin-bottom: 10px;}
+	/* SlicNav CSS Start */
+	.slicknav_menu {
+	  font-size: inherit;
+	  padding: 0;
+	  background: none;
+	  position: absolute;
+	}
+	.slicknav_btn {
+	  margin: 0;
+	  background: none;
+	  text-shadow: 0 0 0;
+	  float: none;
+	  padding: 24px 0;
+	}
+	.slicknav_menu .slicknav_menutxt {display: none;}
+	.slicknav_menu .slicknav_icon {
+	  margin: 0;
+	  float: none;
+	  display: inline-block;
+	}
+	.slicknav_nav {
+	  background-color: #22bbc0;
+	  width: 200px;
+	  margin-left: -15px;
+	}
+	.slicknav_nav .slicknav_row, .slicknav_nav a {
+	  margin: 0;
+	  padding: 10px;
+	}
+	.slicknav_item.slicknav_row:hover, .slicknav_nav a:hover {background: #333;border-radius: 0;}
+	.slicknav_menu { width: 100%;}
+	/* SlicNav CSS Stop */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+	.slicknav_nav {width: 100%;margin-left: 0;}
+	.title-gallery img {margin-top: 20px;}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+	.slicknav_nav {width: 100%;margin-left: 0;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.mainmenu ul li a {padding: 18px 12px;}
+	.title-gallery img {max-width: 360px;}
+	.single-promo-item h4 {font-size: 18px;}
+	.title-gallery {height: auto;margin-left: 0;}
+	.mobile-menu-wrap {display: none;}
+}
+
+/* Extra large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) { .mobile-menu-wrap {display: none;}}
